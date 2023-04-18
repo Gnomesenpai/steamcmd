@@ -6,7 +6,7 @@ FROM debian:bullseye-slim as build_stage
 LABEL maintainer="walentinlamonos@gmail.com"
 ARG PUID=1000
 
-ENV USER steam
+ENV USER game
 ENV HOMEDIR "/home/${USER}"
 ENV STEAMCMDDIR "${HOMEDIR}/steamcmd"
 
